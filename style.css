@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#home, #project, #about, #contact {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+   font-size: 18px;
+   margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: ;
+}
+
+.nav {
+    background-image: url('IMG_20241113_134519_814.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    font-size: 18px;
+    padding: 10ox;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+form textarea {
+    height: 200px;
+}
+form button {
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+form button:hover {
+    background-color: #666;
+}
